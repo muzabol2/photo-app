@@ -11,7 +11,7 @@ export function UploadPhotoButton({ onChange }: { onChange: (photoPath: string) 
    }, [onChange]);
 
    return <label htmlFor="picture"
-      className="rounded-lg text-center p-4 bg-purple-600 text-slate-200 font-semibold hover:shadow-lg hover:scale-105">
+      className="rounded-lg text-center p-4 bg-blue-600 text-slate-200 font-semibold hover:shadow-lg hover:scale-105">
       Upload Picture
       <input
          id="picture"

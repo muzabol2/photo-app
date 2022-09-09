@@ -24,7 +24,7 @@ export function ImageDataInput({ handlePhotoAdd, photoPath }: ImageDataInputProp
          />
          <button
             onClick={() => handlePhotoAdd(imageData)}
-            className="rounded-lg text-center p-4 bg-purple-600 text-slate-200 font-semibold hover:shadow-lg hover:scale-105">
+            className="rounded-lg text-center p-4 bg-blue-600 text-slate-200 font-semibold hover:shadow-lg hover:scale-105">
             Save
          </button>
       </div>
